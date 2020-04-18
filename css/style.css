@@ -1,0 +1,19 @@
+body{
+    background-color: orange;
+}
+
+
+header .search-section{
+    margin-top: 2em;
+}
+
+
+/* HELPERS */
+
+.flex{
+    display: flex;
+}
+
+.space-around{
+    justify-content: space-around;
+}

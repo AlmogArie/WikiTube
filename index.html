@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <title>WikiTube</title>
+</head>
+
+<body>
+
+    <header class="flex space-around">
+        <h1>WikiTube</h1>
+        <section class="search-section">
+            <input type="text">
+            <button onclick="onSearch()">Search</button>
+        </section>
+    </header>
+
+    <section class="main-content">
+<div class="video-list"></div>
+<div class="video"></div>
+<div class="wiki"></div>
+
+    </section>
+
+
+
+    <script src="js/axios.js"></script>
+    <script src="js/local-storage.js"></script>
+    <script src="js/service.js"></script>
+    <script src="js/main.js"></script>
+</body>
+
+</html>
